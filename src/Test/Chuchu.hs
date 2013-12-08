@@ -77,7 +77,7 @@ module
   (chuchuMain, module Test.Chuchu.Types, module Test.Chuchu.Parser)
   where
 
-import Control.Applicative ((<$>))
+import Control.Applicative (Applicative, (<$>))
 import Control.Monad (unless)
 import Control.Monad.IO.Class (MonadIO(liftIO))
 import Control.Monad.Trans.Class (lift)
