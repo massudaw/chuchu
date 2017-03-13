@@ -1,0 +1,9 @@
+packages:
+- deps/abacate
+
+extra-deps:
+- parsec-3.1.11
+- text-1.2.2.1
+- mtl-2.2.1
+
+resolver: ghc-7.10
